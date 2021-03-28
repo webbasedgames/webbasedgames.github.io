@@ -1,0 +1,21 @@
+.content {
+  position: absolute;
+  bottom: 155px;
+  left: 60px;
+}
+
+p {
+  font-family: verdana;
+  font-weight: bold;
+  width: 50vw;
+  text-align: justify;
+}
+
+#bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  min-width: 100%;
+  min-height: 100%;
+}
