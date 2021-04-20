@@ -11,18 +11,16 @@ class Game {
 }
 
 let i = 10;
-let games = [];
-
-while (i--) {
-  games.push(
-    new Game(
-      'game' + i,
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius numquam vero facere corrupti minus voluptatibus aspernatur temporibus rem eaque, id rerum dignissimos repellendus? Corporis numquam molestiae repellendus rem error aut culpa quae itaque, aliquam, facilis qui labore dolores, voluptas consequatur.' +
-        i,
-      'https://www.google.com'
-    )
-  );
-}
+let games = [
+  new Game('Tic Tac Toe', 'The classic Tic Tac Toe game', '../tictactoe.html'),
+  new Game(
+    'Adventure classic',
+    'A text based adventure game to pass the time for a while',
+    '../adventure.html'
+  ),
+  new Game('Snake Xenzia', 'The classic snake in a box game', '../snake.html'),
+  new Game('Tetris', 'The classic game of Tetris', '../tetris.html'),
+];
 
 let ul = document.getElementsByClassName('game-list')[0];
 for (let game of games) {
