@@ -12,15 +12,17 @@ body {
   align-items: center;
   width: 100vw;
   height: 100vh;
-  background-color: #333;
+  background-color: #282a36;
 }
 
 .container {
-  width: 800px;
-  max-width: 80%;
+  font-size: 1.5rem;
+  width: fit-content;
+  max-width: 50%;
+
   background-color: white;
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 20px;
   box-shadow: 0 0 10px 2px;
 }
 
@@ -32,16 +34,18 @@ body {
 }
 
 .btn {
-  background-color: hsl(200, 100%, 50%);
-  border: 1px solid hsl(200, 100%, 30%);
+  font-size: 1.1rem;
+  background-color: #282a36;
+  border: 1px solid #282a36;
   border-radius: 5px;
   padding: 5px 10px;
   color: white;
   outline: none;
+  transition-property: background;
 }
 
 .btn:hover {
-  border-color: black;
+  background-color: green;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Raleway');
