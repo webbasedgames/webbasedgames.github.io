@@ -141,7 +141,7 @@
                   : this.y >= e.height && (this.y = 0),
                 this.cells.unshift({ x: this.x, y: this.y }),
                 this.cells.length > this.maxCells && this.cells.pop(),
-                (this.context.fillStyle = 'green'),
+                (this.context.fillStyle = 'yellow'),
                 this.cells.forEach(function (e, i) {
                   t.context.fillRect(e.x, e.y, t.grid - 1, t.grid - 1),
                     e.x === t.collisionObject.x &&
