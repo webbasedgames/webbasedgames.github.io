@@ -18,7 +18,7 @@ let games = [
     '../tictactoe.html'
   ),
   new Game(
-    'Bizzare Adventure',
+    'Bizarre Adventure',
     `A text based adventure game to have some fun. You wake up in a strange place with suspicious notebook next to you. What will this andventure lead to? Let's find out together.`,
 
     '../adventure.html'
